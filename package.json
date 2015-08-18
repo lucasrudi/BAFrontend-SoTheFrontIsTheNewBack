@@ -1,7 +1,20 @@
 {
   "name": "presentation-bafrontend-lightningtalk",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "bespoke-backdrop": "^1.0.0",
+    "bespoke-bullets": "^1.1.0",
+    "bespoke-camera": "^1.0.0",
+    "bespoke-click": "0.0.0",
+    "bespoke-hash": "^1.0.2",
+    "bespoke-keys": "^1.1.0",
+    "bespoke-notes": "^1.0.0",
+    "bespoke-progress": "^1.0.0",
+    "bespoke-scale": "^1.0.1",
+    "bespoke-state": "^1.0.0",
+    "bespoke-theme-nebula": "^1.0.1",
+    "bespoke-touch": "^1.0.0"
+  },
   "devDependencies": {
     "bespoke": "^1.0.0",
     "bespoke-backdrop": "^1.0.0",
