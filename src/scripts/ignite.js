@@ -7,9 +7,9 @@ module.exports = function(options) {
       prop = options === 'vertical' ? 'height' : 'width',
       interval = null;
 
-      igniteParent.className = 'ignite-parent';
-      igniteBar.className = 'ignite-bar';
-      igniteParent.appendChild(igniteBar);
+    igniteParent.className = 'ignite-parent';
+    igniteBar.className = 'ignite-bar';
+    igniteParent.appendChild(igniteBar);
     deck.parent.appendChild(igniteParent);
 
     deck.on('activate', function(e) {
