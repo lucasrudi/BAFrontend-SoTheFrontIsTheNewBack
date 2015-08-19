@@ -17,6 +17,7 @@ https://github.com/prerender/prerender
 http://www.html5rocks.com/en/tutorials/pagevisibility/intro/?redirect_from_locale=es
 http://www.w3.org/TR/page-visibility/#pv-visibility-state
 http://caniuse.com/#feat=pagevisibility
+https://www.igvita.com/2011/06/25/html5-visibility-api-page-pre-rendering/
 
 ### Prefetching
 http://home.ijasca.com/data/documents/IJASCA18_Waleed.pdf
