@@ -9,9 +9,26 @@
 .through {
     text-decoration: line-through;
 }
+
+.ignite-parent {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+    width:100%;
+    float:left;
+    display:table;
+}
+.parent:before, .parent:after {
+    content: "";
+    display: clear;
+}
 .ignite-bar {
-     text-align: left;
+    width:40%;
+    text-align: left;
+    display:inline
 }
 .timer-bar {
-     text-align: right;
-}
+    text-align: right;
+    display: inline;
+    float: left;
+ }
