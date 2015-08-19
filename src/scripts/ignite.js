@@ -18,7 +18,7 @@ module.exports = function(options) {
     igniteTimer = document.createElement('div'),
       prop = options === 'vertical' ? 'height' : 'width',
 
-      interval = null;
+      interval = null, countDown = null;
 
     igniteParent.className = 'ignite-parent';
     igniteBar.className = 'ignite-bar';
@@ -30,7 +30,7 @@ module.exports = function(options) {
     deck.on('activate', function(e) {
       igniteBar.innerHTML = (e.index + 1) + '/' + deck.slides.length;
       if (!interval) {
-        startTimer(14, igniteTimer);
+        countDown = startTimer(14, igniteTimer);
         interval = setInterval(function(e) {
             deck.next();
           }
